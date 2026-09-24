@@ -1,0 +1,9 @@
+Model,MAE (mean),MAE (std),R² (mean),R² (std)
+"Random Forest (with G1/G2, tuned)",0.634,0.065,0.964,0.009
+"Random Forest (with G1/G2, default)",0.641,0.069,0.963,0.01
+Linear Regression (with G1/G2),0.937,0.062,0.929,0.012
+"Random Forest (no G1/G2, tuned)",2.128,0.223,0.63,0.049
+"Random Forest (no G1/G2, default)",2.137,0.231,0.624,0.048
+Lasso (no G1/G2),2.299,0.213,0.609,0.047
+Ridge (no G1/G2),2.305,0.194,0.596,0.064
+Linear Regression (no G1/G2),2.315,0.208,0.593,0.068
